@@ -1,2 +1,4 @@
 __pycache__/
 .vscode/
+/loss_history.csv
+/model.pytorch
