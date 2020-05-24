@@ -4,7 +4,7 @@
 *Neural network to classify binary digits as an integer*
 
 This package includes a bare-bones example of how to classify a binary number using a neural network with the PyTorch library.
-- You (probably): "But Blake, a neural network is a terrible option for classifying binary numbers!"
+- You (probably): "But a neural network is a terrible option for classifying binary numbers!"
 - Me: "Well, yea...this was an excercise for me to learn how neural networks are created in PyTorch. Maybe it can help you, too."
 
 Check out these files:
