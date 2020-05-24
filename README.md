@@ -7,7 +7,7 @@ This package includes a bare-bones example of how to classify a binary number us
 - You (probably): "But a neural network is a terrible option for classifying binary numbers!"
 - Me: "Well, yea...this was an excercise for me to learn how neural networks are created in PyTorch. Maybe it can help you, too."
 
-Check out these files:
+Check out the source:
 - [src/model.py](src/learn.py)
   - Modify this file to experiment with how the neural network is shaped and trained.
   - ```create_model()```
@@ -20,8 +20,6 @@ Check out these files:
     - Number of iterations the training data should be sent through the model for training.
   - ```LEARNING_RATE```
     - How sensitive the model's weights are to change.
-
-The neural network model is defined in [learn.create_model](src/learn.py). 
 
 ## How to run
 First, install Python3.5+ and PyTorch (I'm using v1.5.0)
