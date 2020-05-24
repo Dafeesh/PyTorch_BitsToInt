@@ -1,9 +1,9 @@
 # PyTorch - Bits To Integer
 
-## Neural network to classify binary as an integer
+## What
+*Neural network to classify binary digits as an integer*
 
-### What
-This package includes a bare-bones example of how to classify a binary number using a neural network using PyTorch.
+This package includes a bare-bones example of how to classify a binary number using a neural network with the PyTorch library.
 - You (probably): "But Blake, a neural network is a terrible option for classifying binary numbers!"
 - Me: "Well, yea...this was an excercise for me to learn how neural networks are created in PyTorch. Maybe it can help you, too."
 
@@ -20,7 +20,7 @@ Check out these files:
 
 The neural network model is defined in [learn.create_model](src/learn.py). 
 
-### How to run
+## How to run
 First, install Python3.5+ and PyTorch (I'm using v1.5.0)
 ```
 python3 --version
