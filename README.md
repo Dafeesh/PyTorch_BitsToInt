@@ -34,3 +34,6 @@ Results are printed to stdtout, and two new files will be created:
 - model.pytorch
   - The trained model saved as a file.
   - You can now run ```./test.sh``` instead of ```./run.sh``` to avoid creating the model again.
+  
+## Author
+Blake Scherschel ([github.com/Dafeesh](https://github.com/Dafeesh))
