@@ -8,15 +8,18 @@ This package includes a bare-bones example of how to classify a binary number us
 - Me: "Well, yea...this was an excercise for me to learn how neural networks are created in PyTorch. Maybe it can help you, too."
 
 Check out these files:
-- [src/learn.py](src/learn.py)
+- [src/model.py](src/learn.py)
+  - Modify this file to experiment with how the neural network is shaped and trained.
   - ```create_model()```
     - Where the model is created and trained with determined parameters.
-    - Modify this file to play around with how the neural network is shaped and trained.
-    - Running ```./run.sh``` will re-run the training and overwrite the existing model saved to file.
-- [src/data.py](src/data.py)
+    - Running ```./run.sh``` will write the model to file (and run the tests).
   - ```NUM_BIT_DIGITS```
     - Specify a different number of digits.
     - WARNING: Output nodes are mapped 1:1 with all possible values so 2\*\*4==16 output nodes. 2\*\*16==65536 output nodes, so stick with smaller amounts like 4-8.
+  - ```NUM_EPOCHS```
+    - Number of iterations the training data should be sent through the model for training.
+  - ```LEARNING_RATE```
+    - How sensitive the model's weights are to change.
 
 The neural network model is defined in [learn.create_model](src/learn.py). 
 
