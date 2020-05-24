@@ -1,10 +1,7 @@
 '''
 Description:
-    Run this file to create a new PyTorch Neural Network model to
-     classify binary input as an integer. Currently only 4-bits (for simplicity).
-
-    "But Blake, a neural network is a terrible option to classify binary numbers!"
-    "Yes, this was an excercise for me to learn how to create neural networks in PyTorch."
+    Run this file to create a new PyTorch Neural Network model to 
+     classify binary input as an integer.
 
 Author:
     Blake Scherschel

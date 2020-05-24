@@ -4,9 +4,6 @@ Description:
     The model should be able to take each number (0 -> N-1) and
      determine the correct integer.
 
-    "But Blake, a neural network is a terrible option to classify binary numbers!"
-    "Yes, this was an excercise for me to learn how to create neural networks in PyTorch."
-
 Author:
     Blake Scherschel
 '''
