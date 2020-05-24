@@ -8,7 +8,7 @@ This package includes a bare-bones example of how to classify a binary number us
 - Me: "Well, yea...this was an excercise for me to learn how neural networks are created in PyTorch. Maybe it can help you, too."
 
 Check out the source:
-- [src/model.py](src/learn.py)
+- [src/model.py](src/model.py)
   - Modify this file to experiment with how the neural network is shaped and trained.
   - ```create_model()```
     - Where the model is created and trained with determined parameters.
